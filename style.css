@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.quote {
+  background: #F5FFFA;
+  border: 1px solid gray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 32px;
+  margin: 0;
+  position: relative;
+  padding: 20px 10px;
+}
+
+.author {
+  color: gray;
+  font-size: 28px;
+}
+
+.clicker {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.text {
+  border: none;
+  background: #F5FFFA;
+  font-size: 26px;
+}
+
+#remove {
+  font-size: 22px;
+}
